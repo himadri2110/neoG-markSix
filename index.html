@@ -9,34 +9,33 @@
 
     <link rel="stylesheet" href="./style.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
-
     <title>Minion Speak</title>
 </head>
 
 <body>
     
-    <h1>Minion Speak</h1>
+    <header>
+        <h1>Minion Speak</h1>
+        <p class="github"><a href="https://github.com/himadri2110/neoG-markSix" target="_blank">GitHub</a></p>
+    </header>
 
     <main>
-        <textarea id="txt-input" placeholder="Type here..."></textarea>
+        <form id="form">
+            <textarea id="txt-input" placeholder="Type here..." required></textarea>
 
-        <button id="btn-translate">Translate</button>
-    
-        <div class="output-msg"></div>
-    
-        <textarea id="output" placeholder="Output will be shown here" readonly></textarea>
-    
+            <button type="submit">Translate</button>    
+        </form>
+        
+        <textarea id="output" placeholder="Output will be shown here..." readonly></textarea>
     </main>
 
-    <div class="about">
+    <footer>
         ABOUT:
         <br>
         Convert from English to Minion speak. This language is spoken by the minions in Despicable Me. The language is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal Studios.
-    </div>
+        <br><br>
+        <p><a href="https://himadrishah.tech/" target="_blank">Himadri Shah</a></p>
+    </foot>
 
     <script src="./app.js"></script>
 
